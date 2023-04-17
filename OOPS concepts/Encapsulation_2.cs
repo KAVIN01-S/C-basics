@@ -2,11 +2,13 @@ using System;
 
 namespace Details
 {
+    //Class User to set location and name string values
     class User
     {
        private string location;
        private string name;
        public string Location
+       //getter setter method for private string location
        {
           get
           {
@@ -17,6 +19,7 @@ namespace Details
              location = value;
           }
        }
+       //getter setter method for private string name
        public string Name
        {
          get
@@ -33,6 +36,7 @@ namespace Details
     {
        static void Main(string[] args)
        {
+          //Object creation for User class
           User u = new User();
           Console.WriteLine("Enter the name:");
           // set accessor will invoke
