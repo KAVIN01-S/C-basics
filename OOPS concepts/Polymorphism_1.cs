@@ -2,12 +2,14 @@ using System;
 
 public class Drawing
 {
+    //Method Area is declared as virtual to override in derived classes
     public virtual double Area()
    {
          return 0;
    }
 }
 
+//Circle class to return Area of Circle
 public class Circle : Drawing
 {
     public double Radius { get; set; }
@@ -20,7 +22,7 @@ public class Circle : Drawing
         return (3.14) * Math.Pow(Radius, 2);
     }
 }
-
+//Square class to return Area of Square 
 public class Square : Drawing
 {
     public double Length { get; set; }
@@ -33,7 +35,7 @@ public class Square : Drawing
         return Math.Pow(Length, 2);
     }
 }
-
+//Rectangle class to return Area of Rectangle
 public class Rectangle : Drawing
 {
     public double Height { get; set; }
@@ -52,13 +54,15 @@ class Program
 {
     static void Main(string[] args)
     {
-
+        //creating object for circle class
         Drawing circle = new Circle();
         Console.WriteLine("Area of Circle     : " + circle.Area());
 
+        //creating object for Square class
         Drawing square = new Square();
         Console.WriteLine("Area of Square     : " + square.Area());
 
+        //creating object for Rectangle class
         Drawing rectangle = new Rectangle();
         Console.WriteLine("Area of Rectangle  : " + rectangle.Area());
     }
