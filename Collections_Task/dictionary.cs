@@ -5,8 +5,7 @@ namespace collection
     //Exampl class for Dictionary
     class Dictionary_Example
     {
-        //Main method
-        public static void main(string[] args)
+        public static void Main(string[] args)
         {
             Dictionary<int, string> map = new Dictionary<int, string>();
 
