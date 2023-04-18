@@ -7,7 +7,7 @@ namespace collection
     class Stack_Example
     {
         //Main method
-        public static void main(string[] args)
+        public static void Main(string[] args)
         {
             Stack<int> myStack = new Stack<int>();
 
