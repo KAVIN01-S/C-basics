@@ -37,7 +37,7 @@ namespace Collection
             array_list1.AddRange(arr); //adding array in arraylist
             array_list1.AddRange(myQ); //adding Queue in arraylist
 
-            //foreach loop to traverse in array_list1
+            //Traversing in array_list1
             foreach(var array_value in array_list1)
             {
                 Console.WriteLine(array_value);
