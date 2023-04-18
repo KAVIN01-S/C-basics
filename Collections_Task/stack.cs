@@ -3,31 +3,30 @@ using System;
 
 namespace collection
 {
-    //Exampl class for SortedList
+    //Example class for SortedList
     class Stack_Example
     {
-        //Main method
         public static void Main(string[] args)
         {
             Stack<int> myStack = new Stack<int>();
 
-            //Push method to add elements into stack
+            //adding elements into stack
             myStack.Push(1);
             myStack.Push(2);
             myStack.Push(3);
             myStack.Push(4);
 
-            //Count method to display the number elements in the stack
+            //Displaying the number elements in the stack
             Console.WriteLine("Number of elements in Stack: {0}", myStack.Count);
 
-            //peek to display the elemnt in the top of the stack
+            //Displaying the element in the top of the stack
             Console.WriteLine("Element int the top of the stack is :"+myStack.Peek());
 
             //Traversing through stack
             Console.WriteLine("Elements in the stack are");
             while (myStack.Count > 0)
             {
-                //pop method to remove element in the top of the stack
+                //removing the element in the top of the stack
                 Console.Write(myStack.Pop() + ",");
             }
             Console.WriteLine();
