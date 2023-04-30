@@ -1,0 +1,12 @@
+#image1,#image2,#image3
+{
+    width: 20px;
+    height: 20px;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #f3f1f1;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }

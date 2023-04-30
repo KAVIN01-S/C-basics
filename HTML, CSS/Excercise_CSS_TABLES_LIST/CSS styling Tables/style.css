@@ -1,0 +1,10 @@
+.center
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table tr:not(:first-child)
+{
+    color: #129cb9;
+}

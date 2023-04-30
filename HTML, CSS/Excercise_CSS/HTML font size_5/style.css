@@ -1,0 +1,11 @@
+#img
+{
+    filter: grayscale(100%);
+    /* filter: blur(5px);
+    filter: saturate(5px); */
+}
+
+.pic
+{
+    display : flex;
+}

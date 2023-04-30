@@ -1,0 +1,20 @@
+.wedding
+{
+    
+    list-style-type: circle;
+}
+.corporate
+{
+    
+    list-style-type: square;
+}
+.social
+{
+    
+    list-style-type:armenian;
+}
+
+
+/* list-style-image: url('img_1.png'); */
+/* list-style-image: url('img_2.png'); */
+/* list-style-image: url('img_4.png'); */
